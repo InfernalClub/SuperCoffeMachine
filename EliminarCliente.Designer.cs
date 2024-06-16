@@ -38,15 +38,18 @@
             // 
             this.tituloEliminar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tituloEliminar.AutoSize = true;
-            this.tituloEliminar.Location = new System.Drawing.Point(348, 58);
+            this.tituloEliminar.BackColor = System.Drawing.Color.Beige;
+            this.tituloEliminar.Font = new System.Drawing.Font("Lucida Calligraphy", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tituloEliminar.Location = new System.Drawing.Point(279, 35);
             this.tituloEliminar.Name = "tituloEliminar";
-            this.tituloEliminar.Size = new System.Drawing.Size(99, 16);
+            this.tituloEliminar.Size = new System.Drawing.Size(231, 29);
             this.tituloEliminar.TabIndex = 0;
             this.tituloEliminar.Text = "Eliminar Cliente";
             // 
             // dataGrid
             // 
             this.dataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGrid.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid.Location = new System.Drawing.Point(203, 99);
             this.dataGrid.Name = "dataGrid";
@@ -58,18 +61,21 @@
             // 
             // botonEliminar
             // 
-            this.botonEliminar.Location = new System.Drawing.Point(342, 317);
+            this.botonEliminar.BackColor = System.Drawing.Color.SandyBrown;
+            this.botonEliminar.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonEliminar.Location = new System.Drawing.Point(321, 314);
             this.botonEliminar.Name = "botonEliminar";
-            this.botonEliminar.Size = new System.Drawing.Size(75, 23);
+            this.botonEliminar.Size = new System.Drawing.Size(135, 43);
             this.botonEliminar.TabIndex = 2;
             this.botonEliminar.Text = "Eliminar";
-            this.botonEliminar.UseVisualStyleBackColor = true;
-      
+            this.botonEliminar.UseVisualStyleBackColor = false;
+            this.botonEliminar.Click += new System.EventHandler(this.botonEliminar_Click);
             // 
             // EliminarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.botonEliminar);
             this.Controls.Add(this.dataGrid);
