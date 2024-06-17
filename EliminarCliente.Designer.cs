@@ -68,7 +68,7 @@
             this.botonEliminar.Size = new System.Drawing.Size(135, 43);
             this.botonEliminar.TabIndex = 2;
             this.botonEliminar.Text = "Eliminar";
-            this.botonEliminar.UseVisualStyleBackColor = false;
+
             this.botonEliminar.Click += new System.EventHandler(this.botonEliminar_Click);
             // 
             // EliminarCliente

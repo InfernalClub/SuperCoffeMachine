@@ -134,6 +134,7 @@
             this.Controls.Add(this.nombre);
             this.Name = "IngresoClientecs";
             this.Text = "IngresoClientecs";
+            this.Load += new System.EventHandler(this.IngresoClientecs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
