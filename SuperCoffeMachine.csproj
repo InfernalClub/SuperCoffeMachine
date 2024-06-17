@@ -98,12 +98,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comprar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comprar.Designer.cs">
+      <DependentUpon>Comprar.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConnectMySQL.cs" />
     <Compile Include="EliminarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EliminarCliente.Designer.cs">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -117,6 +129,12 @@
     <Compile Include="IngresoClientecs.Designer.cs">
       <DependentUpon>IngresoClientecs.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModificarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarProductos.Designer.cs">
+      <DependentUpon>ModificarProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,14 +143,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Comprar.resx">
+      <DependentUpon>Comprar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EliminarCliente.resx">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresoClientecs.resx">
       <DependentUpon>IngresoClientecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarProductos.resx">
+      <DependentUpon>ModificarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

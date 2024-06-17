@@ -34,12 +34,14 @@ namespace SuperCoffeMachine
 
         private void botonProductos_Click(object sender, EventArgs e)
         {
-
+            Productos productos = new Productos();
+            productos.Show();
         }
 
         private void botonVentas_Click(object sender, EventArgs e)
         {
-
+            Estadisticas estadisticas = new Estadisticas();
+            estadisticas.Show();
         }
 
         private void botonClientes_Click(object sender, EventArgs e)
@@ -53,6 +55,23 @@ namespace SuperCoffeMachine
         {
             EliminarCliente eliminarCliente = new EliminarCliente();
             eliminarCliente.Show();
+        }
+
+        private void modificarboton_Click(object sender, EventArgs e)
+        {
+            ModificarProductos modificarProductos = new ModificarProductos();
+            modificarProductos.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void botonCompras_Click(object sender, EventArgs e)
+        {
+            Comprar comprar = new Comprar();
+            comprar.Show();
         }
     }
 }

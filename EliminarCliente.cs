@@ -40,5 +40,10 @@ namespace SuperCoffeMachine
             DataTable data = ConnectMySQL.Instance.SelectQuery(query);
             dataGrid.DataSource = data;
         }
+
+        private void botonEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

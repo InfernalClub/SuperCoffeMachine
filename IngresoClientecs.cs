@@ -51,5 +51,10 @@ namespace SuperCoffeMachine
 
             }
         }
+
+        private void IngresoClientecs_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
