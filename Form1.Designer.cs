@@ -46,9 +46,7 @@
             // CLIENTE
             // 
             this.CLIENTE.AutoSize = true;
-            this.CLIENTE.Location = new System.Drawing.Point(105, 160);
-            this.CLIENTE.Name = "CLIENTE";
-            this.CLIENTE.Size = new System.Drawing.Size(154, 16);
+
             this.CLIENTE.TabIndex = 1;
             this.CLIENTE.Text = "Ingresar nuevos Clientes";
             this.CLIENTE.Click += new System.EventHandler(this.label1_Click);
@@ -56,78 +54,66 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(320, 160);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 16);
+
             this.label2.TabIndex = 2;
             this.label2.Text = "Ingresar nuevos Productos";
             // 
             // botonProductos
             // 
-            this.botonProductos.Location = new System.Drawing.Point(361, 195);
+
             this.botonProductos.Name = "botonProductos";
-            this.botonProductos.Size = new System.Drawing.Size(75, 23);
+            this.botonProductos.Size = new System.Drawing.Size(98, 32);
             this.botonProductos.TabIndex = 3;
             this.botonProductos.Text = "Ver";
-            this.botonProductos.UseVisualStyleBackColor = true;
+            this.botonProductos.UseVisualStyleBackColor = false;
             this.botonProductos.Click += new System.EventHandler(this.botonProductos_Click);
             // 
             // MENU
             // 
             this.MENU.AutoSize = true;
-            this.MENU.Location = new System.Drawing.Point(345, 54);
-            this.MENU.Name = "MENU";
-            this.MENU.Size = new System.Drawing.Size(122, 16);
-            this.MENU.TabIndex = 4;
-            this.MENU.Text = "MENU PRINCIPAL ";
-            // 
-            // botonVentas
-            // 
-            this.botonVentas.Location = new System.Drawing.Point(601, 195);
+
             this.botonVentas.Name = "botonVentas";
-            this.botonVentas.Size = new System.Drawing.Size(75, 23);
+            this.botonVentas.Size = new System.Drawing.Size(94, 33);
             this.botonVentas.TabIndex = 5;
             this.botonVentas.Text = "Ver";
-            this.botonVentas.UseVisualStyleBackColor = true;
+            this.botonVentas.UseVisualStyleBackColor = false;
             this.botonVentas.Click += new System.EventHandler(this.botonVentas_Click);
             // 
             // Ventas
             // 
             this.Ventas.AutoSize = true;
-            this.Ventas.Location = new System.Drawing.Point(589, 160);
-            this.Ventas.Name = "Ventas";
-            this.Ventas.Size = new System.Drawing.Size(104, 16);
+
             this.Ventas.TabIndex = 6;
             this.Ventas.Text = "Ver Estadisticas";
             this.Ventas.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // botonClientes
             // 
-            this.botonClientes.Location = new System.Drawing.Point(144, 195);
+
             this.botonClientes.Name = "botonClientes";
-            this.botonClientes.Size = new System.Drawing.Size(75, 23);
+            this.botonClientes.Size = new System.Drawing.Size(106, 33);
             this.botonClientes.TabIndex = 7;
             this.botonClientes.Text = "Ver";
-            this.botonClientes.UseVisualStyleBackColor = true;
+            this.botonClientes.UseVisualStyleBackColor = false;
             this.botonClientes.Click += new System.EventHandler(this.botonClientes_Click);
             // 
             // Eliminar
             // 
             this.Eliminar.AutoSize = true;
-            this.Eliminar.Location = new System.Drawing.Point(127, 290);
-            this.Eliminar.Name = "Eliminar";
-            this.Eliminar.Size = new System.Drawing.Size(106, 16);
+
             this.Eliminar.TabIndex = 8;
             this.Eliminar.Text = "Eliminar Clientes";
             // 
             // botonEliminar
             // 
+            this.botonEliminar.BackColor = System.Drawing.Color.SandyBrown;
+            this.botonEliminar.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonEliminar.Location = new System.Drawing.Point(144, 327);
             this.botonEliminar.Name = "botonEliminar";
-            this.botonEliminar.Size = new System.Drawing.Size(75, 23);
+            this.botonEliminar.Size = new System.Drawing.Size(106, 34);
             this.botonEliminar.TabIndex = 9;
             this.botonEliminar.Text = "Ver";
-            this.botonEliminar.UseVisualStyleBackColor = true;
+            this.botonEliminar.UseVisualStyleBackColor = false;
             this.botonEliminar.Click += new System.EventHandler(this.botonEliminar_Click);
             // 
             // compraLabel
@@ -173,6 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.modificadorLabel);
             this.Controls.Add(this.modificarboton);
@@ -187,6 +174,7 @@
             this.Controls.Add(this.botonProductos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.CLIENTE);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
