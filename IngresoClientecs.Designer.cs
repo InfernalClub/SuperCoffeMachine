@@ -105,7 +105,6 @@
             this.comboTipo.Name = "comboTipo";
             this.comboTipo.Size = new System.Drawing.Size(132, 24);
             this.comboTipo.TabIndex = 6;
-          
             // 
             // botonEnviar
             // 
